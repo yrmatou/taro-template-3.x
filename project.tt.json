@@ -1,0 +1,9 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "直播小程序",
+  "appid": "wxda33379b8975fd8b",
+  "setting": {
+    "es6": false,
+    "minified": false
+  }
+}
