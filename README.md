@@ -1,9 +1,14 @@
 ## 技术栈
 
-- Taro
-- React
-- Redux
-- Taro-UI
+- [Taro](https://docs.taro.zone/docs/README)  
+- [React](https://zh-hans.reactjs.org/docs/getting-started.html)  
+- [React-Hooks](https://zh-hans.reactjs.org/docs/hooks-intro.html)  
+- [Taro-Hooks](https://docs.taro.zone/docs/hooks)  
+- [Redux](http://cn.redux.js.org/)  
+- [Taro中使用Redux](https://docs.taro.zone/docs/redux)  
+- [Taro-UI](https://taro-ui.aotu.io/#/docs/introduction)  
+- [使用 React Hooks 重构你的小程序](https://docs.taro.zone/blog/2019-07-10-taro-hooks)  
+- [学习代码](https://github.com/sskcal/ng-small_proground_taro)  
 
 ## 功能列表
 

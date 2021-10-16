@@ -21,6 +21,7 @@
     "typeRoots": ["node_modules/@types", "global.d.ts"],
     "paths": {
       "@components/*": ["./src/components/*"],
+      "@hooks/*": ["./src/hooks/*"],
       "@utils/*": ["./src/utils/*"],
       "@store/*": ["./src/store/*"],
       "@router/*": ["./src/router/*"],
