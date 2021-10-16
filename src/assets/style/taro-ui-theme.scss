@@ -1,0 +1,7 @@
+/*Taro UI Custom Theme */
+$color-brand: $color-theme;
+$color-brand-light: $color-theme-light;
+$color-brand-dark: $color-theme-dark;
+
+/* 引入 Taro UI 默认样式 */
+@import "~taro-ui/dist/style/index.scss";

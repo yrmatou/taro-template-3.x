@@ -41,7 +41,7 @@ const config = {
   sass: {
     resource: [
       path.resolve(__dirname, "..", "src/assets/style/base.scss"),
-      path.resolve(__dirname, "..", "src/assets/style/color.scss")
+      path.resolve(__dirname, "..", "src/assets/style/variable.scss")
     ]
   },
   alias: {

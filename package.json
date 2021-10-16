@@ -51,6 +51,7 @@
     "@tarojs/cli": "^3.2.5",
     "@tarojs/components": "3.2.5",
     "@tarojs/react": "3.2.5",
+    "@tarojs/runner-utils": "^3.3.10",
     "@tarojs/runtime": "3.2.5",
     "@tarojs/taro": "3.2.5",
     "@types/jest": "^26.0.23",

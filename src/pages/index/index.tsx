@@ -1,6 +1,6 @@
 import { useState, useEffect, useReducer, useMemo, useRef } from 'react';
 import { View, Text, Button, Input } from "@tarojs/components";
-import { AtButton, AtInput } from "taro-ui";
+import { AtButton } from "taro-ui";
 import QUIcon from "@components/QUIcon";
 import { useSelector, useDispatch } from 'react-redux';
 import counter from '../../reducers/counter';
@@ -16,7 +16,7 @@ const Index = () => {
   const [state, dispatch2] = useReducer(counter, {num: 0});
   useEffect(() => {
     console.log(`You clicked ${count} times`);
-  }, []);
+  }, [count]);
   const inputEl = useRef(null);
   const onButtonClick = () => {
     // `current` 指向已挂载到 DOM 上的文本输入元素
