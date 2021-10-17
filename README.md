@@ -9,6 +9,7 @@
 - [Taro-UI](https://taro-ui.aotu.io/#/docs/introduction)  
 - [使用 React Hooks 重构你的小程序](https://docs.taro.zone/blog/2019-07-10-taro-hooks)  
 - [自定义tabbar](https://github.com/lingxiaoyi/Taro-navigation-bar)  
+- [Taro3.x canvas工具](https://github.com/jianhao/taro-canvas)  
 - [学习代码](https://github.com/sskcal/ng-small_proground_taro)  
 
 ## 功能列表

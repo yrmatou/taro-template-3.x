@@ -11745,6 +11745,11 @@ move-concurrently@^1.0.1:
     rimraf "^2.5.4"
     run-queue "^1.0.3"
 
+mp-html@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.npmmirror.com/mp-html/download/mp-html-2.2.0.tgz#03bc80d46615aed010f60ef30996dcbc6a598e02"
+  integrity sha1-A7yA1GYVrtAQ9g7zCZbcvGpZjgI=
+
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.npmmirror.com/ms/download/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
@@ -15933,6 +15938,11 @@ tar@^6.0.2:
     minizlib "^2.1.1"
     mkdirp "^1.0.3"
     yallist "^4.0.0"
+
+taro-canvas@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.npmmirror.com/taro-canvas/download/taro-canvas-0.0.3.tgz#5974c36c646b3733f02643f046da9f62b778d5e3"
+  integrity sha1-WXTDbGRrNzPwJkPwRtqfYrd41eM=
 
 taro-css-to-react-native@3.2.5:
   version "3.2.5"
