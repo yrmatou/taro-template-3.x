@@ -1,0 +1,31 @@
+.tabbar {
+    display: flex;
+    background: $bg-color-white;
+    &-item {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__image {
+            margin: 5PX auto 0;
+            width: 24PX;
+            height: 24PX;
+        }
+
+        &--selected {
+            .tabbar-item__text {
+                color: $color-theme;
+            }
+        }
+
+        &__text {
+            height: 14PX;
+            line-height: 14PX;
+            font-size: 10PX;
+            font-family: PingFangSC-Light, PingFang SC;
+            font-weight: 300;
+            color: $color-tabbar-text;
+        }
+    }
+}

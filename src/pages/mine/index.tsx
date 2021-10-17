@@ -6,10 +6,11 @@ import NavBar from '@components/navBar/index';
 import "./index.scss";
 
 const Index = () => {
+
   return (
     <View className="index">
       <View className='nav-bar'>
-        <NavBar title='真的吗'></NavBar>
+        <NavBar title='我的'></NavBar>
       </View>
       <Text>Hello world!</Text>
     </View>
