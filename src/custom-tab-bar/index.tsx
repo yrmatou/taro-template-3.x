@@ -16,9 +16,9 @@ const switchTo = (path) => () => {
 
 const CustomTabbar = () => {
     let route = Taro.getCurrentInstance()
-    const [path, setPath] = useState(route.router ? route.router.path : 'pages/index/index')
+    const [path, setPath] = useState(route.router ? route.router.path : '')
     useEffect(() => {
-        wx.onAppRoute(function (res) {
+        wx && wx.onAppRoute(function (res: any) {
             setPath(res.path)
         })
     }, [])
@@ -26,7 +26,7 @@ const CustomTabbar = () => {
     return (
         <CoverView className="tabbar">
             <CoverView className="tabbar-order" />
-            {config.tabBar.list.map((item, index) => {
+            {config.tabBar.list.map((item: any, index: number) => {
                 const isSelected = isEqualPath(path, item.pagePath)
 
                 return (
